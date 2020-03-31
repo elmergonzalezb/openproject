@@ -401,7 +401,7 @@ cs:
         types: "Typy"
         versions: "Verze"
         work_packages: "Pracovní balíčky"
-      project/status:
+      projects/status:
         code: 'Stav'
         explanation: 'Status description'
         codes:
@@ -466,7 +466,7 @@ cs:
         done_ratio: "Průběh (%)"
         end_insertion: "Konec vložení"
         end_deletion: "Konec odstranění"
-        fixed_version: "Verze"
+        version: "Verze"
         parent: "Rodič"
         parent_issue: "Rodič"
         parent_work_package: "Rodič"
@@ -1481,6 +1481,7 @@ cs:
   label_new: "Nové"
   label_new_features: "Nové funkce"
   label_new_statuses_allowed: "Nové povolené stavy"
+  label_news_singular: "Novinky"
   label_news_added: "Přidané novinky"
   label_news_comment_added: "K novince byl přidán komentář"
   label_news_latest: "Novinky"
@@ -2225,7 +2226,6 @@ cs:
   setting_welcome_text: "Text uvítacího bloku"
   setting_welcome_title: "Název uvítacího bloku"
   setting_welcome_on_homescreen: "Zobrazit uvítací blok na domovské obrazovce"
-  setting_wiki_compression: "Komprese historie Wiki"
   setting_work_package_group_assignment: "Povolit přiřazení do skupin"
   setting_work_package_list_default_highlighting_mode: "Výchozí režim zvýraznění"
   setting_work_package_list_default_highlighted_attributes: "Výchozí inline zvýrazněné atributy"

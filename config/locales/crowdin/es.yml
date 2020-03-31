@@ -396,7 +396,7 @@ es:
         types: "Tipos"
         versions: "Versiones"
         work_packages: "Paquetes de trabajo"
-      project/status:
+      projects/status:
         code: 'Estado'
         explanation: 'Descripción del estado'
         codes:
@@ -461,7 +461,7 @@ es:
         done_ratio: "Progreso (%)"
         end_insertion: "Final de la inserción"
         end_deletion: "Final de la eliminación"
-        fixed_version: "Versión"
+        version: "Versión"
         parent: "Padre"
         parent_issue: "Padre"
         parent_work_package: "Padre"
@@ -1446,6 +1446,7 @@ es:
   label_new: "Nuevo"
   label_new_features: "Nuevas características"
   label_new_statuses_allowed: "Nuevos estados permitidos"
+  label_news_singular: "Noticias"
   label_news_added: "Noticias añadidas"
   label_news_comment_added: "Comentario añadido a una noticia"
   label_news_latest: "Últimas noticias"
@@ -2181,7 +2182,6 @@ es:
   setting_welcome_text: "Bloque de texto de bienvenida"
   setting_welcome_title: "Título del bloque de bienvenida"
   setting_welcome_on_homescreen: "Mostrar bloque de bienvenida en la pagina de inicio"
-  setting_wiki_compression: "Comprensión del historial del Wiki"
   setting_work_package_group_assignment: "Permite la asignación a grupos"
   setting_work_package_list_default_highlighting_mode: "Modo de resaltado predeterminado"
   setting_work_package_list_default_highlighted_attributes: "Atributos resaltados en línea predeterminados"

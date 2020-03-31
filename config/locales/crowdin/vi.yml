@@ -400,7 +400,7 @@ vi:
         types: "Các loại"
         versions: "Các phiên bản"
         work_packages: "Work Packages"
-      project/status:
+      projects/status:
         code: 'Trạng thái'
         explanation: 'Mô tả trạng thái'
         codes:
@@ -465,7 +465,7 @@ vi:
         done_ratio: "Progress (%)"
         end_insertion: "End of the insertion"
         end_deletion: "End of the deletion"
-        fixed_version: "Phiên bản"
+        version: "Phiên bản"
         parent: "Cha"
         parent_issue: "Cha"
         parent_work_package: "Cha"
@@ -1435,6 +1435,7 @@ vi:
   label_new: "Mới"
   label_new_features: "New features"
   label_new_statuses_allowed: "Trạng thái mới được phép"
+  label_news_singular: "Tin tức"
   label_news_added: "Đã thêm tin"
   label_news_comment_added: "Bình luận được thêm vào một tin tức"
   label_news_latest: "Tin mới"
@@ -2165,7 +2166,6 @@ vi:
   setting_welcome_text: "Welcome block text"
   setting_welcome_title: "Welcome block title"
   setting_welcome_on_homescreen: "Display welcome block on homescreen"
-  setting_wiki_compression: "Wiki history compression"
   setting_work_package_group_assignment: "Allow assignment to groups"
   setting_work_package_list_default_highlighting_mode: "Default highlighting mode"
   setting_work_package_list_default_highlighted_attributes: "Default inline highlighted attributes"

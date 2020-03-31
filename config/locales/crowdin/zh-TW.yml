@@ -398,7 +398,7 @@ zh-TW:
         types: "類型"
         versions: "版本"
         work_packages: "工作項目"
-      project/status:
+      projects/status:
         code: '狀態'
         explanation: 'Status description'
         codes:
@@ -463,7 +463,7 @@ zh-TW:
         done_ratio: "進度 (%)"
         end_insertion: "結束插入"
         end_deletion: "結束刪除"
-        fixed_version: "版本"
+        version: "版本"
         parent: "上層目錄："
         parent_issue: "上層目錄："
         parent_work_package: "上層目錄："
@@ -1433,6 +1433,7 @@ zh-TW:
   label_new: "新增"
   label_new_features: "New features"
   label_new_statuses_allowed: "允許的新狀態"
+  label_news_singular: "新知"
   label_news_added: "消息已新增"
   label_news_comment_added: "評論已新增"
   label_news_latest: "最新消息"
@@ -2162,7 +2163,6 @@ zh-TW:
   setting_welcome_text: "歡迎區塊文字"
   setting_welcome_title: "歡迎區塊標題"
   setting_welcome_on_homescreen: "在主頁面上顯示歡迎區塊"
-  setting_wiki_compression: "維基歷史壓縮"
   setting_work_package_group_assignment: "允許分配給群組"
   setting_work_package_list_default_highlighting_mode: "預設突出顯示模式"
   setting_work_package_list_default_highlighted_attributes: "預設內聯突出顯示的屬性"

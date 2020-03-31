@@ -401,7 +401,7 @@ sk:
         types: "Typy"
         versions: "Verzie"
         work_packages: "Pracovné balíčky"
-      project/status:
+      projects/status:
         code: 'Stav'
         explanation: 'Status description'
         codes:
@@ -466,7 +466,7 @@ sk:
         done_ratio: "Stav spracovania (%)"
         end_insertion: "Koniec vkladania"
         end_deletion: "Koniec odstraňovania"
-        fixed_version: "Verzia"
+        version: "Verzia"
         parent: "Nadradený balíček"
         parent_issue: "Nadradený balíček"
         parent_work_package: "Nadradený balíček"
@@ -1481,6 +1481,7 @@ sk:
   label_new: "Nový"
   label_new_features: "New features"
   label_new_statuses_allowed: "Nové stavy povolené"
+  label_news_singular: "Novinky"
   label_news_added: "Novinky pridané"
   label_news_comment_added: "Komentár pridaný do Novinky"
   label_news_latest: "Najnovšie novinky"
@@ -2225,7 +2226,6 @@ sk:
   setting_welcome_text: "Text pre uvítací blok"
   setting_welcome_title: "Názov uvítacieho bloku"
   setting_welcome_on_homescreen: "Zobraziť uvítací blok na úvodnej obrazovke"
-  setting_wiki_compression: "Kompresia histórie Wiki"
   setting_work_package_group_assignment: "Povoliť priradenie skupinám"
   setting_work_package_list_default_highlighting_mode: "Predvolený režim zvýraznenia"
   setting_work_package_list_default_highlighted_attributes: "Predvolené inline zvýraznené atribúty"
@@ -2726,8 +2726,8 @@ sk:
       none_given: "Žiadnym aplikáciám OAuth nebol udelený prístup k vášmu používateľskému účtu."
     x_active_tokens:
       one: 'jeden aktívny token'
-      few: '%{count} aktívnych tokenov'
-      many: '%{count} aktívnych tokenov'
+      few: '%{count} aktívne tokeny'
+      many: '%{count} aktívne tokeny'
       other: '%{count} aktívne tokeny'
     flows:
       authorization_code: "Tok autorizácie"

@@ -449,7 +449,7 @@ en:
         types: "Types"
         versions: "Versions"
         work_packages: "Work Packages"
-      project/status:
+      projects/status:
         code: 'Status'
         explanation: 'Status description'
         codes:
@@ -514,7 +514,7 @@ en:
         done_ratio: "Progress (%)"
         end_insertion: "End of the insertion"
         end_deletion: "End of the deletion"
-        fixed_version: "Version"
+        version: "Version"
         parent: "Parent"
         parent_issue: "Parent"
         parent_work_package: "Parent"
@@ -1493,7 +1493,7 @@ en:
   label_new: "New"
   label_new_features: "New features"
   label_new_statuses_allowed: "New statuses allowed"
-  label_news: "News"
+  label_news_singular: "News"
   label_news_added: "News added"
   label_news_comment_added: "Comment added to a news"
   label_news_latest: "Latest news"
@@ -2252,7 +2252,6 @@ en:
   setting_welcome_text: "Welcome block text"
   setting_welcome_title: "Welcome block title"
   setting_welcome_on_homescreen: "Display welcome block on homescreen"
-  setting_wiki_compression: "Wiki history compression"
   setting_work_package_group_assignment: "Allow assignment to groups"
   setting_work_package_list_default_highlighting_mode: "Default highlighting mode"
   setting_work_package_list_default_highlighted_attributes: "Default inline highlighted attributes"
@@ -2632,6 +2631,7 @@ en:
       mail_self_notified: "I want to be notified of changes that I make myself"
     status_user_and_brute_force: "%{user} and %{brute_force}"
     status_change: "Status change"
+    text_change_disabled_for_provider_login: "The name is set by your login provider and can thus not be changed."
     unlock: "Unlock"
     unlock_and_reset_failed_logins: "Unlock and reset failed logins"
 

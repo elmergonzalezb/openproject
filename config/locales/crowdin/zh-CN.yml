@@ -395,7 +395,7 @@ zh-CN:
         types: "类型"
         versions: "版本"
         work_packages: "工作包"
-      project/status:
+      projects/status:
         code: '状态'
         explanation: '状态描述'
         codes:
@@ -460,7 +460,7 @@ zh-CN:
         done_ratio: "进度 (%)"
         end_insertion: "结束插入"
         end_deletion: "结束删除"
-        fixed_version: "版本"
+        version: "版本"
         parent: "父"
         parent_issue: "父"
         parent_work_package: "父"
@@ -1430,6 +1430,7 @@ zh-CN:
   label_new: "新增"
   label_new_features: "新功能"
   label_new_statuses_allowed: "允许的新状态"
+  label_news_singular: "新闻"
   label_news_added: "添加新闻"
   label_news_comment_added: "评论添加到新闻"
   label_news_latest: "最新消息"
@@ -2157,7 +2158,6 @@ zh-CN:
   setting_welcome_text: "欢迎块文本"
   setting_welcome_title: "欢迎区块标题"
   setting_welcome_on_homescreen: "在主屏幕上显示欢迎信息"
-  setting_wiki_compression: "Wiki 历史压缩"
   setting_work_package_group_assignment: "允许分配到组"
   setting_work_package_list_default_highlighting_mode: "默认突出显示模式"
   setting_work_package_list_default_highlighted_attributes: "默认内联突出显示属性"

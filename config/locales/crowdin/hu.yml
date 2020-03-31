@@ -396,7 +396,7 @@ hu:
         types: "Típus"
         versions: "Verzió"
         work_packages: "Feladatcsoportok"
-      project/status:
+      projects/status:
         code: 'Állapot'
         explanation: 'Állapot leírása'
         codes:
@@ -461,7 +461,7 @@ hu:
         done_ratio: "Folyamat állapot (%)"
         end_insertion: "Beillesztés vége"
         end_deletion: "Törlés vége"
-        fixed_version: "Verzió"
+        version: "Verzió"
         parent: "Szülő"
         parent_issue: "Szülő"
         parent_work_package: "Szülő"
@@ -1446,6 +1446,7 @@ hu:
   label_new: "Új"
   label_new_features: "New features"
   label_new_statuses_allowed: "Létrehozás engedélyezett az alábbi státuszokkal"
+  label_news_singular: "Hírek"
   label_news_added: "Hírek hozzáadva"
   label_news_comment_added: "Megjegyzés hozzáadása a hírekhet"
   label_news_latest: "Legfrissebb hírek"
@@ -2180,7 +2181,6 @@ hu:
   setting_welcome_text: "Üdvözlő blokk szöveg"
   setting_welcome_title: "Üdvözlő blokk címe"
   setting_welcome_on_homescreen: "Üdvözlő blokk megjelenítése a kezdőképernyőn"
-  setting_wiki_compression: "Wiki előzmények tömörítése"
   setting_work_package_group_assignment: "Hozzárendelés engedélyezése csoportokhoz"
   setting_work_package_list_default_highlighting_mode: "Alapértelmezett kiemelési mód"
   setting_work_package_list_default_highlighted_attributes: "Alapértelmezett kiemelt attribútumok sorai"

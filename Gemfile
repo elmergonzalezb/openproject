@@ -60,6 +60,9 @@ gem 'typed_dag', '~> 2.0.2'
 
 gem 'addressable', '~> 2.7.0'
 
+# Remove whitespace from model input
+gem "auto_strip_attributes", "~> 2.5"
+
 # Provide timezone info for TZInfo used by AR
 gem 'tzinfo-data', '~> 1.2019.3'
 
@@ -213,7 +216,6 @@ group :test do
 
   gem 'capybara', '~> 3.31.0'
   gem 'capybara-screenshot', '~> 1.0.17'
-  gem 'capybara-select2', git: 'https://github.com/goodwill/capybara-select2', ref: '585192e'
   gem 'webdrivers', '~> 4.2.0', require: false
   gem 'selenium-webdriver', '~> 3.14'
 

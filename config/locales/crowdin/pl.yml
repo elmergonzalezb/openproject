@@ -399,7 +399,7 @@ pl:
         types: "Typy"
         versions: "Wersje"
         work_packages: "Zadania"
-      project/status:
+      projects/status:
         code: 'Status'
         explanation: 'Opis statusu'
         codes:
@@ -464,7 +464,7 @@ pl:
         done_ratio: "Postęp (%)"
         end_insertion: "Koniec wstawiania"
         end_deletion: "Koniec usuwania"
-        fixed_version: "Wersja"
+        version: "Wersja"
         parent: "Rodzic"
         parent_issue: "Rodzic"
         parent_work_package: "Rodzic"
@@ -1479,6 +1479,7 @@ pl:
   label_new: "Nowy"
   label_new_features: "Nowe funkcje"
   label_new_statuses_allowed: "Nowe statusy dozwolone"
+  label_news_singular: "Aktualności"
   label_news_added: "Wiadomość dodana"
   label_news_comment_added: "Komentarz został dodany do wiadomości"
   label_news_latest: "Najnowsze wiadomości"
@@ -2221,7 +2222,6 @@ pl:
   setting_welcome_text: "Tekst bloku powitalnego"
   setting_welcome_title: "Tytuł bloku powitalnego"
   setting_welcome_on_homescreen: "Wyświetl wiadomość powitalną na ekranie głównym"
-  setting_wiki_compression: "Kompresja historii wiki"
   setting_work_package_group_assignment: "Allow assignment to groups"
   setting_work_package_list_default_highlighting_mode: "Domyślny tryb wyróżniania"
   setting_work_package_list_default_highlighted_attributes: "Domyślnie wyróżniane atrybuty wyświetlane w treści"
@@ -2721,7 +2721,7 @@ pl:
       none_given: "Żadnym aplikacjom OAuth nie udzielono dostępu do tego konta użytkownika."
     x_active_tokens:
       one: 'jeden aktywny token'
-      few: '%{count} aktywne tokeny'
+      few: '%{count} aktywnych tokenów'
       many: '%{count} aktywnych tokenów'
       other: '%{count} aktywnych tokenów'
     flows:

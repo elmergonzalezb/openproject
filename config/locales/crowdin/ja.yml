@@ -396,7 +396,7 @@ ja:
         types: "作業項目の型"
         versions: "バージョン"
         work_packages: "作業項目"
-      project/status:
+      projects/status:
         code: 'ステータス'
         explanation: '状況の説明'
         codes:
@@ -461,7 +461,7 @@ ja:
         done_ratio: "進行状況 (%)"
         end_insertion: "挿入の終わり"
         end_deletion: "削除の終わり"
-        fixed_version: "バージョン"
+        version: "バージョン"
         parent: "親項目"
         parent_issue: "親項目"
         parent_work_package: "親項目"
@@ -476,7 +476,7 @@ ja:
       'doorkeeper/application':
         uid: "クライアントID"
         secret: "秘密鍵"
-        owner: "オーナー"
+        owner: "所有者"
         redirect_uri: "リダイレクトURI"
         client_credentials_user_id: "クライアント資格情報ユーザーID"
         scopes: "範囲"
@@ -761,7 +761,7 @@ ja:
   button_change_password: "パスワードの変更"
   button_check_all: "全てを選択"
   button_clear: "クリア"
-  button_click_to_reveal: "クリックして明らかにする"
+  button_click_to_reveal: "明らかにするためにクリック"
   button_close: '閉じる'
   button_collapse_all: "全てを折りたたむ"
   button_configure: "設定"
@@ -1431,6 +1431,7 @@ ja:
   label_new: "新しく作成"
   label_new_features: "新機能"
   label_new_statuses_allowed: "ステータスの移行先"
+  label_news_singular: "ニュース"
   label_news_added: "ニュースが追加されました。"
   label_news_comment_added: "ニュースにコメントが追加されました。"
   label_news_latest: "最新のニュース"
@@ -2161,7 +2162,6 @@ ja:
   setting_welcome_text: "ようこそブロックのテキスト"
   setting_welcome_title: "ようこそブロックのタイトル"
   setting_welcome_on_homescreen: "ホーム画面にようこそブロックを表示"
-  setting_wiki_compression: "Wiki履歴を圧縮する"
   setting_work_package_group_assignment: "グループへの割り当てを許可する"
   setting_work_package_list_default_highlighting_mode: "デフォルトの強調表示モード"
   setting_work_package_list_default_highlighted_attributes: "デフォルトのインライン強調表示属性"

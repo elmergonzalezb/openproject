@@ -403,7 +403,7 @@ ar:
         types: "الأنواع"
         versions: "الإصدارات"
         work_packages: "مجموعات العمل"
-      project/status:
+      projects/status:
         code: 'الحالة'
         explanation: 'Status description'
         codes:
@@ -468,7 +468,7 @@ ar:
         done_ratio: "التقدم (%)"
         end_insertion: "نهاية الإدراج"
         end_deletion: "نهاية الحذف"
-        fixed_version: "الإصدار"
+        version: "الإصدار"
         parent: "الجذر"
         parent_issue: "الجذر"
         parent_work_package: "الجذر"
@@ -1513,6 +1513,7 @@ ar:
   label_new: "جديد"
   label_new_features: "New features"
   label_new_statuses_allowed: "الحالات الجديدة المسموح بها"
+  label_news_singular: "الأخبار"
   label_news_added: "تم إضافة أحداث"
   label_news_comment_added: "تم إضافة تعليق إلى أحداث"
   label_news_latest: "آخر الأحداث"
@@ -2266,7 +2267,6 @@ ar:
   setting_welcome_text: "نص كتلة الترجيب"
   setting_welcome_title: "عنوان كتلة الترحيب"
   setting_welcome_on_homescreen: "كتلة الترحيب عرض على الشاشة الرئيسية"
-  setting_wiki_compression: "ضغط تاريخ Wiki"
   setting_work_package_group_assignment: "السماح بالإحالة إلى مجموعات"
   setting_work_package_list_default_highlighting_mode: "Default highlighting mode"
   setting_work_package_list_default_highlighted_attributes: "Default inline highlighted attributes"

@@ -158,14 +158,16 @@ module ::Query::GroupBy
   end
 
   def aliased_group_by_sort_order(alias_name, sortable, order = nil)
-    column = if alias_name
+    column = if alias_name && sortable.respond_to?(:call)
+               sortable.call(alias_name)
+             elsif alias_name
                "#{alias_name}.#{sortable}"
              else
                sortable
              end
 
     if order
-      column + " #{order}"
+      column + " #{order} "
     else
       column
     end
@@ -178,10 +180,6 @@ module ::Query::GroupBy
     sort_entry = query.sort_criteria.detect { |column, _dir| column == query.group_by }
     order = sort_entry&.last || column.default_order
 
-    if column.null_handling
-      "#{order} #{column.null_handling}"
-    else
-      order
-    end
+    "#{order} #{column.null_handling(order == 'asc')}"
   end
 end

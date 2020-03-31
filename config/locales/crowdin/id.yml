@@ -397,7 +397,7 @@ id:
         types: "Tipe"
         versions: "Versi"
         work_packages: "Paket-Penugasan"
-      project/status:
+      projects/status:
         code: 'Status'
         explanation: 'Status description'
         codes:
@@ -462,7 +462,7 @@ id:
         done_ratio: "Progress (%)"
         end_insertion: "End of the insertion"
         end_deletion: "End of the deletion"
-        fixed_version: "Versi"
+        version: "Versi"
         parent: "Induk"
         parent_issue: "Induk"
         parent_work_package: "Induk"
@@ -1432,6 +1432,7 @@ id:
   label_new: "Baru"
   label_new_features: "New features"
   label_new_statuses_allowed: "Status baru yang diijinkan"
+  label_news_singular: "News"
   label_news_added: "News ditambahkan"
   label_news_comment_added: "Komentar ditambahkan ke dalam Berita"
   label_news_latest: "Berita terbaru"
@@ -2160,7 +2161,6 @@ id:
   setting_welcome_text: "Welcome block text"
   setting_welcome_title: "Welcome block title"
   setting_welcome_on_homescreen: "Display welcome block on homescreen"
-  setting_wiki_compression: "Kompresi Wiki histori"
   setting_work_package_group_assignment: "Mungkinkan penugasan ke Grup"
   setting_work_package_list_default_highlighting_mode: "Default highlighting mode"
   setting_work_package_list_default_highlighted_attributes: "Default inline highlighted attributes"

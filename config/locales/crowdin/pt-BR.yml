@@ -398,7 +398,7 @@ pt-BR:
         types: "Tipos"
         versions: "Versões"
         work_packages: "Pacotes de Trabalho"
-      project/status:
+      projects/status:
         code: 'Status'
         explanation: 'Descrição do estado'
         codes:
@@ -463,7 +463,7 @@ pt-BR:
         done_ratio: "Progresso (%)"
         end_insertion: "Final da inserção"
         end_deletion: "Final da exclusão"
-        fixed_version: "Versão"
+        version: "Versão"
         parent: "Pai"
         parent_issue: "Pai"
         parent_work_package: "Pai"
@@ -698,8 +698,8 @@ pt-BR:
   #common attributes of all models
   attributes:
     active: "Ativo"
-    assigned_to: "Atribuído para"
-    assignee: "Atribuído para"
+    assigned_to: "Atribuição"
+    assignee: "Atribuição"
     attachments: "Anexos"
     author: "Autor"
     base: "Erro geral:"
@@ -1448,6 +1448,7 @@ pt-BR:
   label_new: "Novo"
   label_new_features: "Novos recursos"
   label_new_statuses_allowed: "Novas situações permitidas"
+  label_news_singular: "Notícias"
   label_news_added: "Notícia adicionada"
   label_news_comment_added: "Comentário adicionado a uma notícia"
   label_news_latest: "Últimas notícias"
@@ -2183,7 +2184,6 @@ pt-BR:
   setting_welcome_text: "Texto do bloco de boas-vindas"
   setting_welcome_title: "Título do bloco de boas-vindas"
   setting_welcome_on_homescreen: "Exibir bloco de boas-vindas na tela inicial"
-  setting_wiki_compression: "Compactação de histórico do wiki"
   setting_work_package_group_assignment: "Permitir a atribuição a grupos"
   setting_work_package_list_default_highlighting_mode: "Modo de destaque padrão"
   setting_work_package_list_default_highlighted_attributes: "Atributos embutidos com destaque padrão"
@@ -2376,7 +2376,7 @@ pt-BR:
         date: "data"
         default: "padrão"
       column:
-        assigned_to: "Atribuído para"
+        assigned_to: "Atribuição"
         type: "Tipo"
         due_date: "Data de término"
         name: "Nome"

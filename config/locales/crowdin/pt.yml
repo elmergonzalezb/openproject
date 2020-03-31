@@ -192,7 +192,7 @@ pt:
         no_results_title_text: Atualmente, não existem atividades disponíveis.
       forums:
         no_results_title_text: Atualmente, não existem fóruns para o projeto.
-        no_results_content_text: Criar um novo fórum
+        no_results_content_text: Criar novo fórum
       categories:
         no_results_title_text: Atualmente, não existem categorias de pacote de trabalho.
         no_results_content_text: Criar uma nova categoria de pacote de trabalho
@@ -397,7 +397,7 @@ pt:
         types: "Tipos"
         versions: "Versões"
         work_packages: "Tarefas"
-      project/status:
+      projects/status:
         code: 'Situação'
         explanation: 'Descrição do estado'
         codes:
@@ -462,7 +462,7 @@ pt:
         done_ratio: "Progresso (%)"
         end_insertion: "Final da inserção"
         end_deletion: "Final da exclusão"
-        fixed_version: "Versão"
+        version: "Versão"
         parent: "Mãe"
         parent_issue: "Mãe"
         parent_work_package: "Mãe"
@@ -1066,8 +1066,8 @@ pt:
   error_work_package_done_ratios_not_updated: "Percentagens de progresso do pacote de trabalho não foram atualizadas."
   error_work_package_not_found_in_project: "A tarefa não foi encontrada ou não pertence a este projecto"
   error_must_be_project_member: "deve ser membro do projeto"
-  error_migrations_are_pending: "A sua instalação do OpenProject tem migrações pendentes da base de dados pendentes. Provavelmente esqueceu-se de fazer as migrações após a última atualização. Por favor, verifique o guia de atualização, de forma a atualizar a sua instalação corretamente."
-  error_migrations_visit_upgrade_guides: "Visite a nossa documentação do guia de atualização"
+  error_migrations_are_pending: "Sua instalação do OpenProject tem migrações de banco de dados pendentes. Você provavelmente esqueceu de executar as migrações depois da sua última atualização. Por favor, verifique o guia de atualização para atualizar sua instalação corretamente."
+  error_migrations_visit_upgrade_guides: "Por favor, visite a nossa documentação do guia de atualização"
   error_no_default_work_package_status: "Não está definido um estado padrão para os pacotes de trabalho. Verifique a sua configuração (dirija-se a \"Administração -> Estados de pacotes de trabalho\")."
   error_no_type_in_project: "Nenhum tipo está associado a este projecto. Por favor, verifique as configurações do projeto."
   error_omniauth_registration_timed_out: "Esgotou-se o registo através de um provedor de autenticação externa. Por favor, tente novamente."
@@ -1447,6 +1447,7 @@ pt:
   label_new: "Novo"
   label_new_features: "Novas funcionalidades"
   label_new_statuses_allowed: "Permitidos novos estados"
+  label_news_singular: "Noticias"
   label_news_added: "Notícia adicionada"
   label_news_comment_added: "Comentário adicionado às notícias"
   label_news_latest: "Últimas Notícias"
@@ -1494,7 +1495,7 @@ pt:
   label_planning: "Planeamento"
   label_please_login: "Por favor inicie sessão"
   label_plugins: "Plugins"
-  label_modules_and_plugins: "Módulos e Plugins"
+  label_modules_and_plugins: "Módulos e Complementos"
   label_precedes: "precede"
   label_preferences: "Preferências"
   label_preview: "Pré visualizar"
@@ -2180,7 +2181,6 @@ pt:
   setting_welcome_text: "Bloco de texto de boas-vindas"
   setting_welcome_title: "Título de texto de boas-vindas"
   setting_welcome_on_homescreen: "Exibir o bloco de boas-vindas no ecrã inicial"
-  setting_wiki_compression: "Compressão do histórico da wiki"
   setting_work_package_group_assignment: "Permitir atribuição de grupos"
   setting_work_package_list_default_highlighting_mode: "Modo de destaque padrão"
   setting_work_package_list_default_highlighted_attributes: "Atributos padrão destacados em linha"
