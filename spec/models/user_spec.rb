@@ -51,9 +51,13 @@ describe User, type: :model do
     let!(:deleted_user) { FactoryBot.create(:deleted_user) }
     let!(:user) { FactoryBot.create(:user) }
 
-    it 'returns only actual users' do
-      expect(described_class.not_builtin)
-        .to match_array [user]
+    subject { described_class.not_builtin }
+
+    it 'returns only actual users', :aggregate_failures do
+      expect(subject).to include(user)
+      expect(subject).not_to include(anonymous_user)
+      expect(subject).not_to include(system_user)
+      expect(subject).not_to include(deleted_user)
     end
   end
 

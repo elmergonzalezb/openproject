@@ -126,9 +126,14 @@ describe Principal, type: :model do
     let!(:group) { FactoryBot.create(:group) }
     let!(:user) { FactoryBot.create(:user) }
 
-    it 'returns only actual users and groups' do
-      expect(described_class.not_builtin)
-        .to match_array [user, group]
+    subject { described_class.not_builtin }
+
+    it 'returns only actual users and groups', :aggregate_failures do
+      expect(subject).to include(user)
+      expect(subject).to include(group)
+      expect(subject).not_to include(anonymous_user)
+      expect(subject).not_to include(system_user)
+      expect(subject).not_to include(deleted_user)
     end
   end
 end
